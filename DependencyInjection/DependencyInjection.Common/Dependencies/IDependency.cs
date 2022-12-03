@@ -1,4 +1,4 @@
-﻿namespace DependencyInjection.Api.Dependencies
+﻿namespace DependencyInjection.Common.Dependencies
 {
     public interface IDependency
     {
