@@ -33,7 +33,8 @@ namespace DependencyInjection
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DependencyInjection", Version = "v1" });
             });
 
-            services.AddTransient<IDependency, Dependency>();
+            // Simulating a situation when appsettings is used in registering dependencies
+            services.AddTransient<IDependency, Dependency>(s => new Dependency(Configuration.GetValue<string>("DependencySettings:Value")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
