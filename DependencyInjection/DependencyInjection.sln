@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection.Api", "DependencyInjection\DependencyInjection.Api.csproj", "{E32493C3-8436-48CA-8E16-E8F760868FB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection.Api", "DependencyInjection.Api\DependencyInjection.Api.csproj", "{E32493C3-8436-48CA-8E16-E8F760868FB0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection.Api.Tests", "DependencyInjection.Api.Tests\DependencyInjection.Api.Tests.csproj", "{5C37FC16-7C1A-4B3D-B580-78E4AA693310}"
 EndProject
